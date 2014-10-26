@@ -40,3 +40,39 @@
   border-right: 5px solid transparent;
   border-bottom: 5px solid black;
 }
+
+
+
+
+
+.sidebar .title {
+  padding: 1em;
+  padding-left : 40px;
+  border-bottom: 1px solid #001F11;
+  width: 96%;
+  margin: 0 2% 2em 2%;
+  font-size: 18px;
+  color: gray;
+  background: url(/images/signal.png);
+  background-size: 35px 35px;
+  background-repeat: no-repeat;
+  background-position: left;
+  /*text-align: right;*/
+}
+
+
+.sidebar .topics {
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar .topics li {
+  margin:0.5em 0;
+}
+.sidebar .topics li a{
+  color: gray;
+}
+.sidebar .topics li.active a{
+  color: #549D39;
+  border-left: 2px solid #549D39;
+  padding-left: 1em;
+}
