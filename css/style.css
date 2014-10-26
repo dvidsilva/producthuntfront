@@ -1,0 +1,42 @@
+.header .navbar-brand.logo {
+  padding: 0;
+  padding-top: 0.5em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  height: auto;
+}
+.header .navbar-brand.logo img {
+  max-height: 50px;
+}
+.header .tagline {
+  margin-top: 2em;
+}
+.header .options {
+  margin-top: 10px;
+}
+.options .add , .options .profile {
+  width: 40px;
+  float: left;
+  margin-right: 1em;
+}
+.options .add img, .options .profile img{
+  width: 100%;
+  margin: 1em;
+}
+.options .profile {
+  width: 90px;
+  height: 60px;
+  padding: 0 5px;
+}
+.options .profile .pic {
+  border-radius: 50%;
+  max-width: 60px;
+  margin: 0;
+}
+.options .profile .arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
