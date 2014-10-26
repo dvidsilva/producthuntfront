@@ -76,3 +76,57 @@
   border-left: 2px solid #549D39;
   padding-left: 1em;
 }
+
+
+
+.content header {
+  background: rgba(211, 211, 211, 0.62);
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.content header h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #001F11;
+}
+.content header p {
+  color: gray;
+}
+
+.content .links ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 2em;
+}
+.content .links ul li {
+
+}
+.content .links ul li .desc h2 {
+  font-size: 16px;
+}
+.content .links ul li .desc h2 a {
+  color: black;
+}
+.content .links ul li .desc h2 a:hover  {
+  color: rgb(92, 92, 92);;
+}
+.content .links ul li .upvote button{
+  border: none;
+  background: url('/images/uparrow.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 52px;
+  height: 52px;
+  padding-top: 10px;
+  margin-top: 1em;
+}
+.content .links ul li .desc p {
+  color: gray;
+}
+.content .links ul li .user img {
+  float: right;
+  border-radius: 50%;
+  max-width: 60px;
+}
